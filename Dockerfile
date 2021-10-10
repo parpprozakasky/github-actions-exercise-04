@@ -1,5 +1,5 @@
 FROM alpine:3.10
 
-COPY index.js /index.js
+COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["/index.js"]
+ENTRYPOINT ["/entrypoint.sh"]
